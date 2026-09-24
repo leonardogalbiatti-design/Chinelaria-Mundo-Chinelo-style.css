@@ -1,7 +1,16 @@
+/* =========================
+   1. RESET
+   ========================= */
+
 * {
     margin: 0;
     padding: 0;
 }
+
+
+/* =========================
+   2. BASE
+   ========================= */
 
 body {
     font-family: Arial, sans-serif;
@@ -9,12 +18,24 @@ body {
     line-height: 1.6;
 }
 
+h1 {
+    color: #fef8f8;
+}
+
+a {
+    color: rgb(18, 11, 239);
+}
+
+
+/* =========================
+   3. ESQUELETO DA PÁGINA
+   ========================= */
+
 header,
 footer {
     color: white;
     background-color: black;
 }
-
 
 nav {
     display: flex;
@@ -26,13 +47,10 @@ main {
     margin: 0 auto;
 }
 
-h1 {
-    color: #fef8f8;
-}
 
-a {
-    color: rgb(18, 11, 239);
-}
+/* =========================
+   4. COMPONENTES
+   ========================= */
 
 .produto {
     background-color: #222222;
@@ -48,6 +66,11 @@ a {
     background-color: #FFD700; /* dourado */
     color: black;
 }
+
+
+/* =========================
+   5. SEÇÕES ESPECÍFICAS
+   ========================= */
 
 #destaque {
     background-image: url("images.jpg");
