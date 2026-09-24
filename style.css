@@ -74,7 +74,7 @@ main {
 
 #destaque {
     background-image: url("images.jpg");
-    margin: 5;
+    margin: 5px;
     background-color: #fcfafa;
     color: rgb(19, 19, 19);
 }
